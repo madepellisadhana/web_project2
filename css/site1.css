@@ -1,0 +1,663 @@
+/* <!-- Linga Sai Srilaxmi N01653528 --> */
+/* <!-- Sadhana Madepelli N01651380 --> */
+#menu ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  float: right;
+  margin-right: 1%;
+  padding-top: 20px;
+  
+}
+
+#menu li {
+  padding: 20px;
+  font-size: 20px;
+  display: inline-block;
+  margin-right: 20px;
+  padding-right: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+a {
+  color: #fcfaf8;
+}
+#menu li:hover
+{
+  color: rgb(248, 120, 52); 
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+  transform: scale(1.3);
+ 
+  
+}
+nav h2
+{
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 50px;
+ 
+}
+
+nav h2:hover
+{
+  color: rgb(248, 245, 245); 
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+  
+}
+
+nav {
+ 
+  padding-right: 1%;
+  padding-left:1%;
+  width: 100%;
+  height:15%;
+  background-color: rgb(249, 131, 63);
+  margin-top:0px;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+
+}
+
+nav h2 {
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+#header
+{
+   
+    height:100%;
+} 
+
+.video-container {
+  position: relative;
+  width: 100%;
+  max-width: 100%; /* Ensure the video doesn't exceed its container */
+  height: auto; /* Maintain aspect ratio */
+  overflow: hidden; /* Hide any overflowing content */
+}
+
+.video-container video {
+  width: 100%; /* Set the video width to fill its container */
+  height: auto; /* Allow the video to adjust its height accordingly */
+}
+
+#textbox {
+  position: absolute;
+  top: 50%; /* Position the text vertically in the middle */
+  left: 50%; /* Position the text horizontally in the middle */
+  transform: translate(-50%, -50%); /* Center the text */
+  color: #f88d02;
+  font-size: 60px;
+  text-align: center;
+  padding-bottom: 8%;
+}
+
+#seeallbtn {
+  display: block;
+  margin-top: 20px; /* Add some space between the text and the button */
+}
+
+.main h2
+{
+   
+    padding: 2px;
+    padding-left: 2%; 
+    margin-bottom: 2%;
+    margin-right: 2%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    height:100%;
+    font-size: 2em;
+    overflow: auto;
+    text-align: center;
+}
+
+
+.main h3
+{
+   
+   
+    font-size: 2em;
+}
+.main p
+{
+    
+    padding: 2px;
+    padding-left: 2%; 
+    margin-bottom: 2%;
+    margin-right: 2%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    height:100%;
+    font-size: 1.5em;
+  
+    
+
+}
+
+.main
+{
+    padding-left: 2%;
+    margin-bottom: 2%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    height:100%;
+    /*margin-top: 2%;*/
+    margin-top: 10px;
+    
+}  
+  .section1 {
+    
+    margin-right: 2%;
+    
+  }
+  
+  .section2 {
+    
+    margin-right: 2%;
+    
+    
+  }
+  
+  .section3 {
+   
+    margin-right: 2%;
+  }
+
+  .section4 {
+    
+    margin-right: 2%;
+
+  }
+  .section4 {
+      height: 100px;
+  }
+
+  #logo1
+{
+  padding-top: 80px;
+    display: block; /* Ensures that margin: auto works */
+    margin: 0 auto;
+    width: 30%;
+}
+
+  img {
+      width:100%;
+      height: 250px;
+      object-fit: cover;
+      padding: 15px 15px 15px 15px;
+  }
+
+  #homeimage{
+    display: block; /* Ensures that margin: auto works */
+    margin: 0 auto;
+  
+    width: 30%;
+    height: 100%;
+    z-index: 1;
+}
+  .section5 {
+    
+    margin-right: 2%;
+  }
+  
+  .section6 {
+   
+    margin-right: 2%;
+  }
+  .section7
+  {
+      margin-right: 2%;
+  }
+  .section8
+  {
+      margin-right: 2%;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .cycle-slideshow {
+    position: relative;
+    z-index: 9; /* Set the z-index lower than the navigation bar */
+  }
+
+  .box {
+    border: 3px solid rgb(245, 137, 14);
+    padding: 4px 4px 4px 4px;
+    margin-bottom: 3%;
+    height:10%;
+    flex: 1 1 50%;
+    border-radius: 2%;
+    
+  }
+  .image-container {
+    display: flex;
+    border: 3px solid rgb(245, 137, 14) ;
+    padding: 5px;
+    margin: 2%;
+    flex-wrap: nowrap;
+    flex : 1 1 50%;
+    border-radius: 2%;
+    }
+  p .image-container {
+    overflow: auto;
+  }
+  
+  .section7 {
+   
+    margin-right: 2%;
+  }
+  
+  .section8 {
+   
+    margin-right: 2%;
+  }
+header h2{
+  text-align: center;
+  padding-top: 0;
+}
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 80vh; /* Adjust the height as needed */
+  overflow: hidden;
+}
+
+.video-container video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+}
+
+
+#textbox h2 {
+  font-size: 90px;
+ 
+  margin-bottom: 20px;
+}
+
+#seeallbtn {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+#seeallbtn:hover {
+  background-color: #faaa6d;
+}
+
+
+.rating
+{
+  position:absolute;
+  top:165%;
+  left: 6%;
+  transform: translate(-50%,-50%);
+
+ 
+}
+.checked {
+  color: orange;
+}
+
+
+
+.image-container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 30%;
+    left: 40%;
+    transform: translate(-70%, -40%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.image-container:hover .image {
+  opacity: 0.2;
+}
+
+.image-container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding: 16px 32px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+  }
+
+ .images img {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    margin-right: 2%;
+    margin-left: 0%;
+    padding-left: 0%;
+    transition: transform 0.3s ease 0s;
+    /*box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);*/
+  }
+  
+
+#footer {
+  background-color: rgb(249, 131, 63);
+  color: #fff;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+  overflow: auto; 
+  padding: 20px 20px 20px 20px;
+ }
+
+#footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+#footer a:hover {
+  text-decoration: underline;
+}
+
+#owned
+{
+  float:middle;
+  
+}
+#owned img {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+
+}
+
+figcaption { 
+  display: block;
+  text-align:center;
+}
+a
+{
+  text-align: left;
+
+}
+html,body {
+  background-color: #f8ddc1;
+  width: 100%;
+  margin: 0;
+  height: 100%;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+#about {
+  border: 3px solid #fa9213;
+  border-radius: 1em;
+}
+#icon {
+  float: left;
+  height: 8%;
+  width: 7%;
+  border-radius: 40%;
+}
+#main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  padding: 40px;
+  padding-top: 0;
+}
+.recipe {
+  position: relative;
+}
+.recipe img {
+  width: 80%;
+  height: 300px;
+  padding-left: 15%;
+  margin: 2%;
+  padding-bottom: 5%;
+}
+.recipe .label {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 5px;
+  text-align: center;
+  transition: opacity 0.3s ease;
+}
+.recipe:hover .label {
+  opacity: 1;
+}
+.recipe a {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.recipe a::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background: rgba(0, 0, 0, 0.2); */
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.recipe a:hover::after {
+  opacity: 1;
+}
+.recipe a:hover .label {
+  opacity: 1;
+}
+
+/* Styling for overlay on grid item hover */
+.recipe .overlay {
+  position: absolute; /* Positioning */
+  top: 0; /* Position from top */
+  width: 100%;
+  height: 300px; /* Set height */
+  background-color: rgba(0, 0, 0, 0.2);
+  color: rgb(247, 246, 249); /* Text color */
+  font-size: 20px; /* Set font size */
+  text-align: center; /* Align text to center */
+  transform: rotateY(180deg); /* Rotate initially */
+  transition: transform 0.5s ease; /* Add transition effect */
+  pointer-events: none; /* Prevent interaction */
+  opacity: 0; /* Hide initially */
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Align content horizontally */
+  align-items: center; /* Align content vertically */
+  font-weight: bolder;
+}
+
+/* Styling for overlay on grid item hover */
+.recipe:hover .overlay {
+  transform: rotateY(0deg); /* Rotate on hover */
+  opacity: 4.5; /* Show on hover */
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+nav {
+ 
+  padding-right: 1%;
+  padding-left:1%;
+  width: 99.9%;
+  height:45%;
+  background-color: rgb(249, 131, 63);
+  margin-top:0px;
+  top: 0;
+  z-index: 10;
+  position: relative;
+
+}
+
+nav #menu {
+    display: grid;
+    grid-template-columns: 1fr; /* Ensure menu items stack vertically */
+    align-items: center; /* Center-align the menu items */
+}
+
+nav #menu ul {
+    display: flex;
+    flex-direction: column; /* Display the menu items in a column */
+    padding: 0;
+    margin: 0;
+}
+
+nav #menu li {
+    margin: 0;
+    padding: 0;
+     /* Set text color to black */
+}
+
+nav #menu li a {
+    display: block;
+    padding: 10px; /* Adjust padding for better spacing */
+    background-color: #f5c899;
+    color: black;
+    width: 94%; /* Adjust width to fit the container */
+    margin: 5px auto; /* Add margin for spacing between items */
+    text-align: center; /* Center-align the text */
+    border-radius: 5px; /* Add border radius for better appearance */
+    text-decoration: none; /* Turn off text decoration */
+}
+
+
+  .main {
+    padding: 0px;
+    margin-top: 100px;
+  }
+  
+  header {
+    height: 400px; /* Adjust as needed */
+    padding-top: 100px;
+    margin-top: 100px;
+  }
+  
+  #textbox {
+    padding: 250px 0px 0px 0px;
+    margin-left: 0;
+    font-size: 40px;
+  }
+  
+  #seeallbtn {
+    width: 100%;
+  }
+  
+  .images img {
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+  }
+  
+  .image-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .image-container p {
+    margin: 10px 0;
+  }
+  
+  #footer {
+    padding: 20px;
+  }
+  
+  #footer p {
+    margin: 10px 0;
+  }
+  
+  #footer img {
+    height: 100px;
+    width: 100px;
+  }
+  
+  .container {
+    flex-direction: column;
+  }
+  
+  .box {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #icon {
+    float: left;
+    height: 8%;
+    width: 10%;
+    border-radius: 40%;
+  }
+
+
+  #main {
+    display: block;
+    padding: 40px;
+    padding-top: 0;
+  }
+  
+  #logo1
+  {
+    padding-top:0;
+      display: block; /* Ensures that margin: auto works */
+      margin: 0 auto;
+      width: 100%;
+      height: 240px;
+  }  
+
+}
+
+
+
+

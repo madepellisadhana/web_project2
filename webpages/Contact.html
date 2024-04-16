@@ -1,0 +1,146 @@
+<!-- Linga Sai Srilaxmi N01653528 -->
+<!-- Sadhana Madepelli N01651380 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for character set and viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the page -->
+    <title>Contact</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="../css/site3.css">
+    <!-- Shortcut icon for the website -->
+    <link rel="shortcut icon" href="../images/download.jpeg" type="image/jpeg">
+</head>
+<body>
+
+    <!-- Navigation section -->
+    <nav>
+        <div id="menu">
+            <!-- Logo or icon -->
+            <img src="../images/download.jpeg" id="icon" alt="icon">
+            <!-- List of navigation links -->
+            <ul>
+                <li><a href="../webpage1.html"> HOME</a></li>
+                <li><a href="./Recipes.html"> RECIPES</a></li>
+                <li><a href="./Aboutus.html"> ABOUT US</a></li>
+                <li><a href="./Contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main content section -->
+    <main id="main1">
+        <!-- Section for contact information and image -->
+        <div id="food">
+            <!-- Image container -->
+            <div class="image-container">
+                <img src="../images/gleNKmxlS3KeYQaZTPFJ_0S9A7162.webp" alt="contact-img">
+            </div>
+            <!-- Content container -->
+            <div class="content-container">
+                <h3>Make Reservations for Cooking Classes with Us.</h3><br>
+                <p>We show you the art of cooking so you may prepare a delectable dinner and impress everyone with your nouvelle abilities. 
+                <br>We provide private lessons for the two of you, small groups (bridal showers), and big groups (corporate team building events).</p><br>
+                <p>Therefore, why do you delay? Make an appointment now and modify the wording to reflect our culinary expertise.<p>
+            </div>
+        </div>
+
+        <!-- Contact form -->
+        <form id="contact_form">
+            <!-- Container for input fields -->
+            <div class="container">
+                <div>
+                    <!-- Name input field -->
+                    <label for="name">Name <span id="name_error" class="error">*</span></label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div>
+                    <!-- Email input field -->
+                    <label for="email">Email <span id="email_error" class="error">*</span></label>
+                    <input type="text" id="email" name="email">
+                </div>
+            </div>
+
+            <!-- Additional contact information -->
+            <div>
+                <label for="phone">Phone <span id="phone_error" class="error">*</span></label>
+                <input type="tel" id="phone" name="phone">
+
+                <label for="time">Best time and method to reach you <span id="time_error" class="error">*</span></label>
+                <input type="text" id="time" name="time">
+            </div>
+
+            <!-- Selection dropdown -->
+            <div>
+                <label for="classtype">Interested in <span id="classtype_error" class="error">*</span></label>
+                <div>
+                    <select name='input_11' id='input_11' class='large gfield_select'>
+                        <option value='Corporate Cooking Class'>Corporate Cooking Class</option>
+                        <option value='Private Group Cooking Class'>Private Group Cooking Class</option>
+                        <option value='In-Home Cooking Class'>In-Home Cooking Class</option>
+                        <option value='Scheduled Class'>Scheduled Class</option>
+                        <option value='I just have a question'>I just have a question</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Container for number of people and date of event -->
+            <div class="container1">
+                <div>
+                    <!-- Number of people input field -->
+                    <label for="num_people">Number of People <span id="num_people_error" class="error">*</span></label>
+                    <input type="number" id="num_people" name="num_people" min="1">
+                </div>
+                <div>
+                    <!-- Date of event input field -->
+                    <label for="date_event">Date of Event <span id="date_event_error" class="error">*</span></label>
+                    <input type="date" id="date_event" name="date_event">
+                </div>
+            </div>
+
+            <!-- Message textarea -->
+            <div>
+                <label for="message">Message:</label>
+                <div class="container_textarea">
+                    <textarea name="message" id="message" class="textarea small"></textarea>
+                </div>
+            </div>
+
+            <!-- Submit button -->
+            <div class="button-container">
+                <input type="submit" id="submit_button" class="submit_button button" value="START PLANNING YOUR EVENT">
+            </div>
+        </form>
+
+        <!-- Contact information section -->
+        <div class="contact-info">
+            <h3>Phone</h3>
+            <h3>+1 555-555-5555</h3>
+            <h3>Email</h3>
+            <h3>culinarycrafts@gmail.com</h3>
+        </div>
+    </main>
+
+    <!-- Footer section -->
+    <footer>
+        <div id="footer">
+            <!-- Footer links -->
+            <p>
+                <a href="#">Privacy Policy</a> |
+                <a href="#">Terms of Service</a> |
+                <a href="mailto:culinarycrafts@gmail.com">Mail Us</a> |
+                <a href="tel:+1 555-555-5555">Call Us</a>
+            </p>
+            <br>
+            <!-- Copyright notice -->
+            <p>&copy; 2023 Culinary Crafts. All rights reserved.</p>
+            <br>
+        </div>
+    </footer>
+
+    <!-- Script file -->
+    <script src="../js/Script1.js"></script>
+</body>
+</html>
